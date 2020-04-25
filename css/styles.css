@@ -1,0 +1,148 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+}
+
+h1{
+	font-family: "Montserrat";
+	font-size: 50px;
+	font-weight: bold;
+}
+
+h2{
+	margin-top: 3%;
+	font-family: "Montserrat";
+}
+
+/* Dotted <hr> */
+hr{
+	border: dotted #E0E0E0 5px;
+	border-bottom: none;
+	width: 5%;
+	margin: 70px auto; 
+}
+
+.name-row{
+	padding: 300px 0;
+}
+
+.name-container{
+	text-align: center;
+}
+
+.title-img{
+	position: relative;
+	opacity: 0.65;
+	background-image: url('../images/postcards.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100%;
+}
+
+.profile-img{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.bio{
+	color: black;
+}
+.project-row{
+	margin:0 20%;
+	justify-content: center;
+	padding: 12px;
+}
+.prj-img{
+	margin-top: 35px;
+}
+#technical-skill{
+	text-align: center;
+	color: black;
+}
+#technical-certificate{
+	justify-content: center;
+	text-align: center;
+}
+
+/* Contact me */
+.contact-me{
+	width: 55%;
+	margin: 40px auto 60px;
+}
+
+.contact-me-row{
+	text-align: center;
+	justify-content: center;
+	margin: 0 25%;
+}
+/* Contact me CRYSTAL button */
+.btn{
+	color: #009688;
+	text-decoration: none;
+	margin: 10px 10px;
+	padding: 10px;
+	border-radius: 4px;
+	border: solid #1DE9B6; 
+	transition: box-shadow: .2s;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color: white;
+	font-weight: bold;
+	color: black;
+	box-shadow: 0 1px 10px rgba(40,40,40,.2);
+}
+
+.social{
+	text-align: center;
+	background-color: #B2DFDB;
+	padding: 50px 0 20px; 
+}
+
+.copyright{
+	color: #333;
+	padding: 10px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.social .footer-link{
+	font-weight: bold;
+	color: #FF5651;
+	margin: 0 25px;
+	text-decoration: none;
+}
+.social .footer-link:hover{
+	/*color: white;*/
+}
+
+.carousel-item{padding: 3% 3%;}
+
+/* Custom carousel next and previous buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); 	
+  width: 30px;
+  height: 48px;
+}
+
+.carousel-control-prev-icon {
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 48px;
+}
